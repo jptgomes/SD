@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aula sobre servidor HTTP e testes de acesso entre cliente/servidor</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <header>
+    <style>
+    .div-1 {
+        background-color: #EBEBEB;
+    }
+    
+    .div-2 {
+    	background-color: #ABBAEA;
+    }
+    
+    .div-3 {
+    	background-color: white;
+    }
+</style>
+
+<body bgcolor="orange">
+
+    <div class="div-1"> <h1><b> <p style="text-align:center"> Sistemas Distribuídos</p></b></h1> </div>
+    <div class="div-2"> <h2> <p style="text-align:center">Hospedagem de site em servidor Linux Apache </p></h2></p> </div>
+    <div class="div-3"> <p style="text-align:center"> Esta é uma aplicação para ilustrar a arquitetura Cliente/Servidor </p> </div>
+</body>
+    
+
+       
+        <br/>
+        <nav>
+            <p></p>
+            <ul>
+                <li><a href="#sessao_principal">Sobre a aula</a></li>
+                <li><a href="#sessao_2">Onde aprender mais</a></li>
+                <li><a href="#contato">Entre em Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+ <main>
+        <section id="sessao_principal">
+            <h2>Sobre a aula</h2>
+            <article>
+                <h3>O que aprendi com o servidor web</h3>
+                <p>Inicialmente, aprendi como criar um servidor em VM</p>
+                <p>Posteriormente como acessar uma página via cliente</p>
+                <p>em seguida fizemos a alteração do código index.html e novo teste de página</p>
+                <p>...</p>
+                <img src="https://t.ctcdn.com.br/i5M0IGS8k_ek5NFMUc4pyH8_zFA=/665x374/smart/filters:format(webp)/i263937.jpeg">
+            </article>
+            <article>
+                <h3>O que estou aprendendo agora:</h3>
+                <p>Agora estou fazendo exercícios práticos</p>
+            </article>
+        </section>
+    </main>
+    <br/>
+    <br/>
+    <section id="sessao_2">
+        <div class="divisao">
+            <h2>Onde aprender mais</h2>
+            <p>Para aprender mais sobre servidor web</p>
+            <iframe width="800px" height="400px" src="https://img.ibxk.com.br/2021/03/29/29151233808273.jpg?ims=704x"></iframe>
+            <p><a href="https://www.tecmundo.com.br/produto/214913-funciona-o-servidor-apache.htm">Site</a></p>
+        </div>
+        <br>
+  </section>
+    <section id="contato">
+        <h2>Entre em contato</h2>
+        <p>Preencha o formulário abaixo para poder entrar em contato!</p>
+        <form method="get">
+            <div>
+                <span>Nome:</span>
+                <input type="text" name="nome">
+            </div>
+            <div>
+                <span>Email:</span>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <span>Mensagem:</span>
+                <textarea></textarea>
+            </div>
+            <div>
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </section>
+<p></p>
+
+    <footer>
+        <p style="text-align:center"> <b>Todos os direitos reservados - Aula sobre Servidor HTTP - IFSULDEMINAS - Campus Passos</p></b>
+    </footer>
+
+</body>
+</html>
+
