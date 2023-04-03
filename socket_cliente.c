@@ -1,7 +1,11 @@
 /*
  * ============================================================================
  *
- *       Arquivo socket_cliente.c
+ *      socket_cliente.c
+ *
+ *	Atenção: é preciso alterar o endereço do servidor em: 
+ *	#define SERVER_ADDR "endereço do servidor"
+ *
  *	 Adaptado de Gustavo Pantuza 
  *	 Disponível em: https://blog.pantuza.com/artigos/programando-um-protocolo-utilizando-sockets
  *   
@@ -32,7 +36,7 @@
 /* endereço do servidor. Como estamos usando uma VM, lembrar de fazer o redirecionamento de porta: 
 Criar um nome para o redirecionamento chamado socket, IP do hospedeiro, porta 4242, IP do convidado, porta 4242*/
 
-#define SERVER_ADDR "127.0.0.1"
+#define SERVER_ADDR "192.168.0.10"
 
 
 int 

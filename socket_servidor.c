@@ -1,7 +1,12 @@
 /*
  * ============================================================================
  *
- *       Arquivo socket_servidor.c
+ *      socket_servidor.c
+ *
+ *	Observação: (server.sin_addr.s_addr = INADDR_ANY;) esta linha precisa
+ *	ser adicionada em propriedades do socket do servidor para testar entre hosts diferentes 
+ *	para cliente e servidor, sendo assim o servidor usa o endereço definido no host.
+ *
  *	 Adaptado de Gustavo Pantuza 
  *	 Disponível em: https://blog.pantuza.com/artigos/programando-um-protocolo-utilizando-sockets
  *   
@@ -52,6 +57,8 @@ main(void) {
     /* Define as propriedades do socket do servidor */
     server.sin_family = AF_INET;
     server.sin_port = htons(PORT);
+    server.sin_addr.s_addr = INADDR_ANY;   /* Foi inserido esta linha para usar o endereço do host 
+    para teste entre hosts diferentes*/
     memset(server.sin_zero, 0x0, 8);
 
 
